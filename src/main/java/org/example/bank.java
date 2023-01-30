@@ -62,6 +62,7 @@ public class Bank {
                 case 2 -> kawin.withdrawl();
                 case 3 -> kawin.display();
                 case 4 -> inc = false;
+                default -> break;
             }
 
         }
