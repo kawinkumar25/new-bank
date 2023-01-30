@@ -11,12 +11,9 @@ public class bank {
     bank()
     {
         System.out.println("Enter name:");
-        String a=i.nextLine();
+        name=i.nextLine();
         System.out.println("Enter Account number:");
-        long b=s.nextLong();
-
-        name=a;
-        accNo=b;
+        accNo=s.nextLong();
         balance=0;
     }
 
