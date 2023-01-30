@@ -2,9 +2,9 @@ package org.example;
 
 import java.util.Scanner;
 public class bank {
-    static String name;
-    static long accNo;
-    static double balance=0;
+     String name;
+     long accNo;
+     double balance=0;
     Scanner dep =new Scanner(System.in);
     Scanner i = new Scanner(System.in);
     Scanner s = new Scanner(System.in);
