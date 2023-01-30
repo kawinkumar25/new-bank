@@ -1,7 +1,7 @@
 package org.example;
 
 import java.util.Scanner;
-public class Bank {
+public class bank {
      String name;
      long accNo;
      double balance=0;
