@@ -1,14 +1,14 @@
 package org.example;
 
 import java.util.Scanner;
-public class bank {
+public class Bank {
      String name;
      long accNo;
      double balance=0;
     Scanner dep =new Scanner(System.in);
     Scanner i = new Scanner(System.in);
     Scanner s = new Scanner(System.in);
-    bank()
+    Bank()
     {
         System.out.println("Enter name:");
         name=i.nextLine();
@@ -49,7 +49,7 @@ public class bank {
     }
     public static void main(String [] args)
     {
-        bank kawin = new bank();
+        Bank kawin = new Bank();
 
         Scanner a = new Scanner(System.in);
         boolean inc = true;
@@ -62,7 +62,7 @@ public class bank {
                 case 2 -> kawin.withdrawl();
                 case 3 -> kawin.display();
                 case 4 -> inc = false;
-                default -> break;
+                default -> System.out.println("invalid choice");
             }
 
         }
