@@ -14,7 +14,6 @@ public class bank {
         name=i.nextLine();
         System.out.println("Enter Account number:");
         accNo=s.nextLong();
-        balance=0;
     }
 
     void deposit()
